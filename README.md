@@ -1,5 +1,5 @@
 # Ecoleta-web
-Waste collection project. Developed during the NLW (Next Level Week) offered by Rocketseat
+Waste collection project. Developed during the NLW (Next Level Week) offered by [Rocketseat](https://rocketseat.com.br/)
 
 ![Ecoleta web Screenshot](src/assets/home.png)
 
