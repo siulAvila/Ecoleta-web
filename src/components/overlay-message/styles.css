@@ -1,0 +1,52 @@
+@import '../../App.css';
+
+.overlay {
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  z-index: 9999;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: visibility 500ms;
+  overflow: hidden;
+}
+
+.overlay h1 {
+  color: var(--primary-color);
+  margin-top: 1rem;
+}
+
+.success-icon {
+  color: var(--primary-color);
+  height: 40px;
+  width: 50px;
+}
+
+.overlay button {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  color: white;
+  margin-top: 40px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.overlay button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
